@@ -552,17 +552,18 @@ footer p{
 	letter-spacing: 1px;
 	background: #fff;
 	color: #424242;
-	border: 2px #424242 solid;
+	border: 2px  solid #424242;
 	padding: 15px 54px;
 	margin-top: 20px;
 	outline: none;
 }
 
-#box #submit:hover{
+#box #submit:hover,
+#box #submit:focus{
 	cursor: pointer;
 	color: #fff;
 	background: #424242;
-	border: 2px #424242 solid;
+	border: 2px solid #424242;
 }
 #box span a{
   display: block;
