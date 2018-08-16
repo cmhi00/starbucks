@@ -133,7 +133,8 @@ header nav ul li a{
 	border-bottom: 1px #ffffff solid;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover,
+header nav ul li a:focus{
 	border-bottom: 1px #4d4d4d solid;
 }
 
@@ -353,7 +354,8 @@ body.fullscreen .ex_video #play-control{
 	bottom: 0;
 }
 
-.recent_work .work:hover span{
+.recent_work .work:hover span,
+.recent_work .work a:focus span{
   transition-duration: 0.7s;
 	bottom: 66px;
 }
@@ -414,7 +416,8 @@ body.fullscreen .ex_video #play-control{
 	border-radius: 100px;
 }
 
-.subscription a.start_btn:hover{
+.subscription a.start_btn:hover,
+.subscription a.start_btn:focus{
 	background: #4d4d4d;
 	color: #f5f5f5;
 }
@@ -455,20 +458,25 @@ body.fullscreen .ex_video #play-control{
 }
 
 
-.social a:hover{
+.social a:hover,
+.social a:focus{
 	background: url('../img/sm_hover.png') no-repeat;
 }
 
-.social a.fb:hover{
+.social a.fb:hover,
+.social a.fb:focus{
 	background-position: 0 0;
 }
-.social a.t:hover{
+.social a.t:hover,
+.social a.t:focus{
 	background-position: -71px 0;
 }
-.social a.d:hover{
+.social a.d:hover,
+.social a.d:focus{
 	background-position: -142px 0;
 }
-.social a.g:hover{
+.social a.g:hover,
+.social a.g:focus{
 	background-position: -213px 0;
 }
 
